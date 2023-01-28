@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes">
+    <link rel="stylesheet" type="text/css" href="quform/css/base.css">
+    
+      <link rel="stylesheet" type="text/css" href="quform/themes/light/rounded.css">
+  </head>
+  <body>
+      <header>
+        <div class="container logo">
+            <div class="row">
+                <div class="col-12 logo">
+                    <a href="index.html"><img src="images/logo.png" class="img-fluid mx-auto d-block" alt="ShyLynn Ranch Logo"></a>
+                </div>
+            </div>  
+        </div>
+      </header>
+      
+      <div class="container navcontainer sticky-top">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav me-auto">
+                         <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="inclusions.html">Inclusions</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="itinerary.html">Itinerary</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="campground.html">Campground</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="gallery.html">Gallery</a>
+                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                         </li>
+                     </ul>
+                </div>
+            </div>
+        </nav>
+      </div>
+     
+      <div class="container content">
+        <div class="container heading">
+            <h1>Contact Us</h1>
+            <div class="tagline">  
+                <p>Let us help you create your dream wedding!</p>    
+            </div>
+        </div>
+          <div class="row contact">
+            <div class="col-md-6">    
+                <div class="quform-outer quform-theme-light-rounded">
+                    <form class="quform" action="quform/process.php" method="post" enctype="multipart/form-data">
+                        <div class="quform-inner">
+                            <h3 class="quform-title">Contact form</h3>
+                            <p class="quform-description">Please get in touch using the form below.</p>
+                            <div class="quform-elements">
+                                <div class="quform-element quform-element-text quform-full-width">
+                                    <div class="quform-spacer">
+                                        <label for="name">Name <span class="quform-required">*</span></label>
+                                        <div class="quform-input">
+                                            <input id="name" type="text" name="name" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quform-element quform-element-text quform-full-width">
+                                    <div class="quform-spacer">
+                                        <label for="email">Email address <span class="quform-required">*</span></label>
+                                        <div class="quform-input">
+                                            <input id="email" type="text" name="email" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quform-element quform-element-textarea quform-full-width">
+                                    <div class="quform-spacer">
+                                        <label for="message">Message <span class="quform-required">*</span></label>
+                                        <div class="quform-input">
+                                            <textarea id="message" name="message" class="quform-textarea"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quform-element quform-element-captcha">
+                                    <div class="quform-spacer">
+                                        <label for="type_the_word">Type the word <span class="quform-required">*</span></label>
+                                        <div class="quform-input">
+                                            <input id="type_the_word" type="text" name="type_the_word" />
+                                        </div>
+                                        <div class="quform-captcha">
+                                            <div class="quform-captcha-inner">
+                                                <img src="quform/images/captcha/courier-new-light.png" alt="" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="quform-submit">
+                                    <div class="quform-submit-inner">
+                                        <button type="submit"><span><em>Send</em></span></button>
+                                    </div>
+                                    <div class="quform-loading-wrap"><span class="quform-loading"></span></div>
+                                </div>
+                           </div>
+                       </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Contact</h3>  
+                <p>ShyLynn Ranch<br>2529 Yankee Flats Rd<br>Salmon Arm, BC<br>V1E 3K6</p>
+                <p><a href="tel:250-832-2626">250-832-2626</a></p>
+                <p>ShyLynn Ranch is located in the beautiful Salmon River Valley. We are approximately 25 minutes from Salmon Arm, Vernon and Armstrong (1 hour from Kelowna and Kamloops).</p>
+                <p>If you need more help with the directions please don't hesitate to phone us!</p>
+            </div>
+          </div>
+          <div class="container directions"></div>
+          <div class="row directions">
+            
+            <div class="col-md-6 col-lg-4">
+                <h3>Directions from Vernon</h3>
+                <ol>
+                    <li>Go North on Hwy 97 from Vernon</li>
+                    <li>Once North of Vernon take the exit for Hwy 97 North to Kamloops (Swan Lake Nursery is on the left and Atlantis Waterslides is on the right)</li>
+                    <li>Go approx 18km and turn right onto Salmon River Road.</li>
+                    <li>Go 2km and turn left up the hill onto Yankee Flats Road (Log building on right and a set of mailboxes on left)</li>
+                    <li>Go approx 6km and you will see our sign on the right.</li>
+                    <li>Campground is 2km down the driveway. Please drive slow and watch for horseback riders on the driveway.</li>
+                    <li>Welcome to the Ranch!</li>
+                </ol>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h3>Directions from Salmon Arm</h3>
+                <ol>
+                    <li>Leave Salmon Arm following Hwy 1 towards Chase/Kamloops</li>
+                    <li>Turn left onto Salmon River Road/40th street SW towards Silver Creek</li>
+                    <li>2 km past the Silver Creek General Store turn right onto Yankee Flats Road</li>
+                    <li>Go 7 km and you will see the Ranch sign on you left.</li>
+                    <li>Campground is 2km down the driveway. Please drive slow and watch for horseback riders on the driveway.</li>
+                    <li>Welcome to the Ranch!</li>
+                </ol>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <h3>Directions from Kamloops</h3>
+                <ol>
+                    <li>Take Hwy 1 East towards Salmon Arm/Vernon</li>
+                    <li>Take the exit for Hwy 97 South to Vernon</li>
+                    <li>After about 62km turn left on Salmon River Road towards Salmon Arm</li>
+                    <li>Go 2km and turn left up the hill onto Yankee Flats Road (Log building on right and a set of mailboxes on left)</li>
+                    <li>Go approx 6km and you will see our sign on the right.</li>
+                    <li>Campground is 2km down the driveway. Please drive slow and watch for horseback riders on the driveway.</li>
+                    <li>Welcome to the Ranch!</li>
+                </ol>
+            </div>
+          </div>
+          
+          
+          
+      </div><!--End content -->
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="quform/js/jquery-3.5.1.min.js"></script>
+      <script type="text/javascript" src="quform/js/plugins.js"></script>
+      <script type="text/javascript" src="quform/js/scripts.js"></script>
+  </body>
+</html>
