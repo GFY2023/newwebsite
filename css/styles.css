@@ -118,8 +118,7 @@ h1,h2,h3,h4,h5,h6 {
 /*contact form */
 
 .quform-inner {
-   
-    padding: 15px;
+    padding: 0 15px 15px 15px;
 }
 
 
