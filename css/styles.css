@@ -103,9 +103,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 .pricing {
    /* margin: 0 15px 20px 15px;*/
-    /*border: solid 1px #000;*/
-   /* padding: 5px;*/
-    padding-bottom: 20px;
+    border: solid 1px #000;
+    padding-bottom: 5px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 .subInclusions ul {
     list-style: none;
@@ -136,6 +137,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Carousel on Home CSS */
 .carouselcontent {
     padding: 0;
+    max-width: 960px;
 }
 /*End Carousel */
 
