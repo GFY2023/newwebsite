@@ -13,6 +13,7 @@ body {
 .content {
     background-color: #f7f7f7;
     padding: 30px 0;
+    max-width: 960px;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Great Vibes', serif;
@@ -93,6 +94,25 @@ h1,h2,h3,h4,h5,h6 {
 .gallery img {
     padding: 20px 10px 20px 10px;
 }
+.inclusions {
+    padding: 10px; 
+}
+.subInclusions {
+    max-width: 960px;
+    padding: 0 20px;
+}
+.pricing {
+    margin: 0 15px 20px 15px;
+    border: solid 1px #000;
+    padding: 5px;
+}
+.services {
+    color: #5b85a4;
+    font-weight: bold;
+}
+.heading {
+    max-width: 960px;
+}
 /* End Content Area */
 
 
@@ -101,11 +121,14 @@ h1,h2,h3,h4,h5,h6 {
     margin: 3px -12px 0 -12px;
     background-color: #000;
     border: solid 1px #CFA829;
-    border-bottom: solid 2px #CFA829;   
+    border-bottom: solid 2px #CFA829;
 }
 .nav-link {
     font-family: 'Great Vibes', serif;
     font-size: 28px;
+}
+.navcontainer {
+    max-width: 960px;
 }
 /* End Navbar */
 
