@@ -99,7 +99,7 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0 20px;
 }
 .subInclusions h3 {
-    color: #5b85a4;
+    color: #426077;
 }
 .pricing {
    /* margin: 0 15px 20px 15px;*/
@@ -110,6 +110,9 @@ h1,h2,h3,h4,h5,h6 {
 }
 .subInclusions ul {
     list-style: none;
+}
+.subInclusions li {
+    text-transform: capitalize;
 }
 
 .heading {
