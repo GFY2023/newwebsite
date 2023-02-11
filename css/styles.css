@@ -90,14 +90,11 @@ h1,h2,h3,h4 {
     padding: 0 20px;
 }
 .subInclusions h3 {
-    text-decoration: underline;
+    text-decoration: underline #CFA829;
     margin: 10px 0;
 }
 .subInclusions p {
     margin-bottom:  0px;
-}
-.subInclusions h5 {
-    margin-top: 10px;
 }
 .pricing { 
     padding: 10px;
