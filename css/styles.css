@@ -15,7 +15,7 @@ body {
     padding: 30px 0;
     max-width: 960px;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4 {
     font-family: 'Great Vibes', serif;
 }
 .content h1 {
@@ -91,10 +91,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 .subInclusions h3 {
     text-decoration: underline;
+    margin: 10px 0;
 }
-.subInclusions ul {
-    list-style: none;
-    text-transform: capitalize;
+.subInclusions p {
+    margin-bottom:  0px;
+}
+.subInclusions h5 {
+    margin-top: 10px;
 }
 .pricing { 
     padding: 10px;
