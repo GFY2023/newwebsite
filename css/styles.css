@@ -42,7 +42,6 @@ h1,h2,h3,h4,h5,h6 {
 .tagline p {
     padding: 10px 0;
 }
-
 .tagline.itinerary p {
     font-family: 'Great Vibes', serif;
     font-size: 2em;
@@ -52,16 +51,10 @@ h1,h2,h3,h4,h5,h6 {
     padding: 0px 20px;
 }
 .itin-block img {
-    padding: 10px 15px;
+    padding: 10px 10px;
 }
 .camp-image {
     padding: 15px 15px;
-}
-.camp-image2 {
-    padding: 15px 15px;
-}
-.camp-image img {
-   
 }
 .content .row {
     margin-left: 0;
@@ -70,8 +63,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 #cabins {
     margin-top: 30px;
-}
-#cabins img {
 }
 #cabins .details {
     margin-top:10px
@@ -101,20 +92,13 @@ h1,h2,h3,h4,h5,h6 {
 .subInclusions h3 {
     text-decoration: underline;
 }
-.pricing {
-   /* margin: 0 15px 20px 15px;*/
-    border: solid 1px #000;
-    padding-bottom: 5px;
-    margin: auto;
-    margin-bottom: 20px;
-}
 .subInclusions ul {
     list-style: none;
-}
-.subInclusions li {
     text-transform: capitalize;
 }
-
+.pricing { 
+    padding: 10px;
+}
 .heading {
     max-width: 960px;
 }
@@ -139,16 +123,14 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Carousel on Home CSS */
 .carouselcontent {
+    margin-top: 20px;
     padding: 0;
     max-width: 960px;
 }
 /*End Carousel */
 
 /*contact form */
-
 .quform-inner {
     padding: 0 15px 15px 15px;
 }
-
-
 /* end contact form */
