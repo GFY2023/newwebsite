@@ -85,16 +85,8 @@ h1,h2,h3,h4 {
 .inclusions {
     padding: 10px; 
 }
-.subInclusions {
-    max-width: 960px;
-    padding: 0 20px;
-}
-.subInclusions h3 {
-    text-decoration: underline #CFA829;
-    margin: 10px 0;
-}
-.subInclusions p {
-    margin-bottom:  0px;
+.inclusions h3 {
+    text-align: center;
 }
 .pricing { 
     padding: 10px;
@@ -118,6 +110,38 @@ h1,h2,h3,h4 {
 }
 .navcontainer {
     max-width: 960px;
+}
+.social {
+    position: relative;
+}
+img.fbhover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+.fbhover:hover {
+    opacity: 1;
+}
+img.instahover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 10;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+.instahover:hover {
+    opacity: 1;
+}
+.nav-link.active {
+    color: deeppink;
 }
 /* End Navbar */
 
