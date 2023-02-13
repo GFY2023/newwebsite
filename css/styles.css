@@ -70,7 +70,7 @@ h1,h2,h3,h4 {
 .row.contact {
    margin-top: 20px;
 }
-.container.directions {
+.container.divider {
     width:85%;
     padding: 20px;
     margin-top: 20px;
@@ -86,7 +86,7 @@ h1,h2,h3,h4 {
     padding: 10px; 
 }
 .inclusions h3 {
-    text-align: center;
+    margin-top: 10px
 }
 .pricing { 
     padding: 10px;
@@ -114,6 +114,7 @@ footer p {
     background-color: #000;
     border: solid 1px #CFA829;
     border-bottom: solid 2px #CFA829;
+    padding: 0;
 }
 .nav-link {
     font-family: 'Great Vibes', serif;
@@ -124,6 +125,7 @@ footer p {
 }
 .social {
     position: relative;
+    margin: 5px 0;
 }
 img.fbhover {
     position: absolute;
@@ -142,7 +144,7 @@ img.instahover {
     position: absolute;
     top: 0;
     right: 0;
-    left: 50;
+    left: 10;
     bottom: 0;
     object-fit: contain;
     opacity: 0;
@@ -156,7 +158,6 @@ img.instahover {
 /* Carousel on Home CSS */
 .carouselcontent {
     margin-top: 20px;
-    margin-bottom: 20px;
     padding: 0;
     max-width: 960px;
 }
