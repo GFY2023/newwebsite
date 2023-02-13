@@ -88,6 +88,9 @@ h1,h2,h3,h4 {
 .inclusions h3 {
     margin-top: 10px
 }
+.included img {
+    margin: 10px 0;
+}
 .pricing { 
     padding: 10px;
 }
