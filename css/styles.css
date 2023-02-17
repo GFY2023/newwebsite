@@ -5,7 +5,7 @@ body {
     background-color: #000;
     background-attachment: fixed;
     background-size: cover;
-    padding: 10px;
+    padding: 20px 10px 20px 10px;
 }
 
 
@@ -132,10 +132,7 @@ footer p {
 }
 img.fbhover {
     position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    left:0;
     object-fit: contain;
     opacity: 0;
     transition: opacity .2s;
@@ -145,17 +142,14 @@ img.fbhover {
 }
 img.instahover {
     position: absolute;
-    top: 0;
     right: 0;
-    left: 10;
-    bottom: 0;
     object-fit: contain;
     opacity: 0;
     transition: opacity .2s;
   }
 .instahover:hover {
     opacity: 1;
-}
+} 
 /* End Navbar */
 
 /* Carousel on Home CSS */
